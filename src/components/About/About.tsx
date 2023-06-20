@@ -16,11 +16,7 @@ function About() {
               "I am a highly motivated full-stack web developer with a strong passion for building responsive websites and applications. <br />
               I am constantly looking for new challenges and opportunities to grow my skills and knowledge.”
             </p>
-            <div className='text-center'>
-              <a href="" className="">
-              <span className="btn bg-secondary text-light">Download Resume</span>
-              </a>
-            </div>
+            
           </div>
         </div>
       </div>
