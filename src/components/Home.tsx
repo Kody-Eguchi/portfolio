@@ -8,6 +8,7 @@ export default function Home() {
         <div className="d-flex justify-content-center gap-3">
           <a href="https://www.linkedin.com/in/kojieguchi" target="_blank"><i className="display-6 text-secondary fa-brands fa-linkedin"></i></a>
           <a href="https://github.com/Kody-Eguchi" target="_blank"><i className="display-6 text-secondary fa-brands fa-square-github"></i></a>
+          <a href="mailto:kody.eguchi+portfolio@gmail.com"><i className="display-6 text-secondary fa-solid fa-envelope" /></a>
         </div>
       </div>
     </div>

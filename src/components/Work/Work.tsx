@@ -17,6 +17,10 @@ function Work() {
             <img src={nourishd} />
             <div className="legend bg-white d-flex flex-column gap-3 pb-4">
               <div>
+                <p className='text-dark fs-5'>Description</p>
+                <p className='text-dark fs-6'>A nutrient intake tracking application.</p>
+              </div>
+              <div>
                 <p className='text-dark fs-5'>LINKS</p>
                 <a href="https://github.com/Kody-Eguchi/nourishd" target="_blank"><i className="fs-1 text-secondary fa-brands fa-square-github"></i></a>
               </div>
@@ -34,6 +38,10 @@ function Work() {
           <div>
             <img src={quiz} />
             <div className="legend bg-white d-flex flex-column gap-3 pb-4">
+              <div>
+                <p className='text-dark fs-5'>Description</p>
+                <p className='text-dark fs-6'>A quiz application.</p>
+              </div>
               <div>
                 <p className='text-dark fs-5'>LINKS</p>
                 <a href="https://github.com/Kody-Eguchi/quiz_app" target="_blank"><i className="fs-1 text-secondary fa-brands fa-square-github"></i></a>
@@ -53,6 +61,10 @@ function Work() {
             <img src={scheduler} />
             <div className="legend bg-white d-flex flex-column gap-3 pb-4">
               <div>
+                <p className='text-dark fs-5'>Description</p>
+                <p className='text-dark fs-6'>A scheduling application.</p>
+              </div>
+              <div>
                 <p className='text-dark fs-5'>LINKS</p>
                 <a href="https://github.com/Kody-Eguchi/scheduler" target="_blank"><i className="fs-1 text-secondary fa-brands fa-square-github"></i></a>
               </div>
@@ -70,6 +82,10 @@ function Work() {
             <img src={tinyApp} />
             <div className="legend bg-white d-flex flex-column gap-3 pb-4">
               <div>
+                <p className='text-dark fs-5'>Description</p>
+                <p className='text-dark fs-6'>An URL shortening application.</p>
+              </div>
+              <div>
                 <p className='text-dark fs-5'>LINKS</p>
                 <a href="https://github.com/Kody-Eguchi/tinyapp" target="_blank"><i className="fs-1 text-secondary fa-brands fa-square-github"></i></a>
               </div>
@@ -85,6 +101,10 @@ function Work() {
             <img src={tweeter} />
             <div className="legend bg-white d-flex flex-column gap-3 pb-4">
               <div>
+                <p className='text-dark fs-5'>Description</p>
+                <p className='text-dark fs-6'>A twetter clone SNS application.</p>
+              </div>
+              <div>
                 <p className='text-dark fs-5'>LINKS</p>
                 <a href="https://github.com/Kody-Eguchi/tweeter" target="_blank"><i className="fs-1 text-secondary fa-brands fa-square-github"></i></a>
               </div>
@@ -99,6 +119,10 @@ function Work() {
           <div>
             <img src={romantech} />
             <div className="legend bg-white d-flex flex-column gap-3 pb-4">
+              <div>
+                <p className='text-dark fs-5'>Description</p>
+                <p className='text-dark fs-6'>An AI powered application that generate date plans.</p>
+              </div>
               <div>
                 <p className='text-dark fs-5'>LINKS</p>
                 <a href="https://github.com/Kody-Eguchi/romantech" target="_blank"><i className="fs-1 text-secondary fa-brands fa-square-github"></i></a>
@@ -118,6 +142,10 @@ function Work() {
             <img src={nextjs} />
             <div className="legend bg-white d-flex flex-column gap-3 pb-4">
               <div>
+                <div>
+                  <p className='text-dark fs-5'>Description</p>
+                  <p className='text-dark fs-6'>A Wikipedia application.</p>
+                </div>
                 <p className='text-dark fs-5'>LINKS</p>
                 <a href="https://github.com/Kody-Eguchi/wikipedia-app" target="_blank"><i className="fs-1 text-secondary fa-brands fa-square-github"></i></a>
               </div>
@@ -127,6 +155,7 @@ function Work() {
                 <i className="mx-1 fs-5 text-white bg-secondary rounded p-2 devicon-css3-plain"></i>
                 <i className="mx-1 fs-5 text-white bg-secondary rounded p-2 devicon-bootstrap-plain"></i>
                 <i className="mx-1 fs-5 text-white bg-secondary rounded p-2 devicon-typescript-plain"></i>
+                <i className="mx-1 fs-5 text-white bg-secondary rounded p-2 devicon-nextjs-plain"></i>
                 <i className="mx-1 fs-5 text-white bg-secondary rounded p-2 devicon-nodejs-plain"></i>
                 <i className="mx-1 fs-5 text-white bg-secondary rounded p-2 devicon-express-original"></i>
               </div>
@@ -135,6 +164,10 @@ function Work() {
           <div>
             <img src={dishcover} />
             <div className="legend bg-white d-flex flex-column gap-3 pb-4">
+              <div>
+                <p className='text-dark fs-5'>Description</p>
+                <p className='text-dark fs-6'>A recipe browsing application.</p>
+              </div>
               <div>
                 <p className='text-dark fs-5'>LINKS</p>
                 <a href="https://github.com/Kody-Eguchi/Dishcover" target="_blank"><i className="fs-1 text-secondary fa-brands fa-square-github"></i></a>
@@ -151,11 +184,15 @@ function Work() {
             </div>
           </div>
       </Carousel>
-
+      {/* MOBILE VIEW */}
       <div className='d-flex d-md-none w-75 mx-auto mt-4 mb-5 flex-column '>
         <div className='text-center d-flex flex-column p-3'>
-            <img src={nourishd} className='w-100'/>
+            <img src={nourishd} className='w-100 mb-2'/>
             <div className="d-flex flex-column gap-3 pb-4">
+              <div>
+                <p className='text-dark fs-5'>Description</p>
+                <p className='text-dark fs-6'>A nutrient intake tracking application.</p>
+              </div>
               <div>
                 <p className='text-dark fs-5'>LINKS</p>
                 <a href="https://github.com/Kody-Eguchi/nourishd" target="_blank"><i className="fs-1 text-secondary fa-brands fa-square-github"></i></a>
@@ -174,8 +211,12 @@ function Work() {
         </div>
         
         <div className='text-center d-flex flex-column p-3'>
-            <img src={quiz} className='w-100'/>
+            <img src={quiz} className='w-100 mb-2'/>
             <div className="d-flex flex-column gap-3 pb-4">
+              <div>
+                <p className='text-dark fs-5'>Description</p>
+                <p className='text-dark fs-6'>A quiz application.</p>
+              </div>
               <div>
                 <p className='text-dark fs-5'>LINKS</p>
                 <a href="https://github.com/Kody-Eguchi/quiz_app" target="_blank"><i className="fs-1 text-secondary fa-brands fa-square-github"></i></a>
@@ -193,8 +234,12 @@ function Work() {
             <hr/>
           </div>
           <div className='text-center d-flex flex-column p-3'>
-            <img src={scheduler} className='w-100'/>
+            <img src={scheduler} className='w-100 mb-2'/>
             <div className="bg-white d-flex flex-column gap-3 pb-4">
+              <div>
+                <p className='text-dark fs-5'>Description</p>
+                <p className='text-dark fs-6'>A scheduling application.</p>
+              </div>
               <div>
                 <p className='text-dark fs-5'>LINKS</p>
                 <a href="https://github.com/Kody-Eguchi/scheduler" target="_blank"><i className="fs-1 text-secondary fa-brands fa-square-github"></i></a>
@@ -211,8 +256,12 @@ function Work() {
             <hr/>
           </div>
           <div className='text-center d-flex flex-column p-3'>
-            <img src={tinyApp} className='w-100'/>
+            <img src={tinyApp} className='w-100 mb-2'/>
             <div className="bg-white d-flex flex-column gap-3 pb-4">
+              <div>
+                <p className='text-dark fs-5'>Description</p>
+                <p className='text-dark fs-6'>An URL shortening application.</p>
+              </div>
               <div>
                 <p className='text-dark fs-5'>LINKS</p>
                 <a href="https://github.com/Kody-Eguchi/tinyapp" target="_blank"><i className="fs-1 text-secondary fa-brands fa-square-github"></i></a>
@@ -227,8 +276,12 @@ function Work() {
             <hr/>
           </div>
           <div className='text-center d-flex flex-column p-3'>
-            <img src={tweeter} className='w-100'/>
+            <img src={tweeter} className='w-100 mb-2'/>
             <div className="bg-white d-flex flex-column gap-3 pb-4">
+              <div>
+                <p className='text-dark fs-5'>Description</p>
+                <p className='text-dark fs-6'>A twetter clone SNS application.</p>
+              </div>
               <div>
                 <p className='text-dark fs-5'>LINKS</p>
                 <a href="https://github.com/Kody-Eguchi/tweeter" target="_blank"><i className="fs-1 text-secondary fa-brands fa-square-github"></i></a>
@@ -243,8 +296,12 @@ function Work() {
             <hr/>
           </div>
           <div className='text-center d-flex flex-column p-3'>
-            <img src={romantech} className='w-100'/>
+            <img src={romantech} className='w-100 mb-2'/>
             <div className="bg-white d-flex flex-column gap-3 pb-4">
+              <div>
+                <p className='text-dark fs-5'>Description</p>
+                <p className='text-dark fs-6'>An AI powered application that generate date plans.</p>
+              </div>
               <div>
                 <p className='text-dark fs-5'>LINKS</p>
                 <a href="https://github.com/Kody-Eguchi/romantech" target="_blank"><i className="fs-1 text-secondary fa-brands fa-square-github"></i></a>
@@ -262,8 +319,12 @@ function Work() {
             <hr/>
           </div>
           <div className='text-center d-flex flex-column p-3'>
-            <img src={nextjs} className='w-100'/>
+            <img src={nextjs} className='w-100 mb-2'/>
             <div className="bg-white d-flex flex-column gap-3 pb-4">
+              <div>
+                <p className='text-dark fs-5'>Description</p>
+                <p className='text-dark fs-6'>A Wikipedia application.</p>
+              </div>
               <div>
                 <p className='text-dark fs-5'>LINKS</p>
                 <a href="https://github.com/Kody-Eguchi/wikipedia-app" target="_blank"><i className="fs-1 text-secondary fa-brands fa-square-github"></i></a>
@@ -281,8 +342,12 @@ function Work() {
             <hr/>
           </div>
           <div className='text-center d-flex flex-column p-3'>
-            <img src={dishcover} className='w-100'/>
+            <img src={dishcover} className='w-100 mb-2'/>
             <div className="bg-white d-flex flex-column gap-3 pb-4">
+              <div>
+                <p className='text-dark fs-5'>Description</p>
+                <p className='text-dark fs-6'>A recipe browsing application.</p>
+              </div>
               <div>
                 <p className='text-dark fs-5'>LINKS</p>
                 <a href="https://github.com/Kody-Eguchi/Dishcover" target="_blank"><i className="fs-1 text-secondary fa-brands fa-square-github"></i></a>

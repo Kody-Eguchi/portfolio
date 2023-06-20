@@ -32,7 +32,7 @@ function About() {
           <h3 className='text-uppercase'>Skills</h3>
         </div>
 
-        <div className="">
+        <div className="p-3">
           <p className='text-uppercase'>Programming Languages</p>
           <div className="d-flex flex-wrap">
             <div className="text-center px-2">
@@ -69,7 +69,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div>
+        <div className="p-3">
           <p className='text-uppercase'>Frameworks & Libraries</p>
           <div className="d-flex flex-wrap">
             <div className="text-center px-2">
@@ -102,7 +102,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div>
+        <div className="p-3">
           <p className='text-uppercase'>Systems & Databases</p>
           <div className="d-flex flex-wrap">
             <div className="text-center px-2">
@@ -127,7 +127,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div>
+        <div className="p-3">
           <p className='text-uppercase'>Testing Tools</p>
           <div className="d-flex flex-wrap">
             <div className="text-center px-2">
@@ -154,7 +154,7 @@ function About() {
       {/* Education */}
       <div className="my-4">
         <h3 className='text-uppercase mb-4'>Education</h3>
-        <div>
+        <div className='p-3'>
           <p><span className="">Diploma, Full-Stack Web Development</span> - Lighthouse Labs - 2023</p> 
           <p><span className="">Bachelor of Arts, Labour Relations</span> - York University - 2016</p> 
           <p><span className="">Diploma, Social Services Worker</span> - Seneca College - 2014</p> 
